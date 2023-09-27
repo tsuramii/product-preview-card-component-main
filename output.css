@@ -835,6 +835,15 @@ video {
     justify-content: center;
   }
 
+  .lg\:rounded-s-lg {
+    border-start-start-radius: 0.5rem;
+    border-end-start-radius: 0.5rem;
+  }
+
+  .lg\:rounded-tr-none {
+    border-top-right-radius: 0px;
+  }
+
   .lg\:p-3 {
     padding: 0.75rem;
   }
