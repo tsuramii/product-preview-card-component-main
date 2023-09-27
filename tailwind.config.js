@@ -11,7 +11,7 @@ module.exports = {
         'darkcyan': '#3c8067',
         'cream': '#f2ebe3',
         'verydarkblue': '#1c232b',
-        'darkgrayish': '	#6c7289',
+        'darkgrayish': '#6c7289',
       },
   
     },

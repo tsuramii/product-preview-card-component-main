@@ -18,24 +18,35 @@
 
 </head>
 
-<body class="font-montserrat">
-  <main>
-
-    Perfume
-
-    Gabrielle Essence Eau De Parfum
-
-    A floral, solar and voluptuous interpretation composed by Olivier Polge,
-    Perfumer-Creator for the House of CHANEL.
-
-    $149.99
-    $169.99
-
-    Add to Cart
+<body class="font-montserrat bg-cream">
+  <main class="min-h-[95vh]">
+    <article class="m-5 rounded-lg bg-white shadow-sm flex flex-col">
+      <figure>
+        <img srcset="./images/image-product-mobile.jpg, ./images/image-product-desktop.jpg 2x"
+          src="./images/image-product-desktop.jpg" alt="Gabrielle chanel perfume" class="rounded-t-lg" />
+      </figure>
+      
+      <figcaption class="p-[1.22rem]">
+        <h2 class="tracking-[0.3em] font-bold uppercase text-xs text-darkgrayish">Perfume</h2>
+        <h3 class="font-fraunces text-3xl leading-7 py-5 text-verydarkblue">Gabrielle Essence Eau De Parfum</h3>
+        <p class="text-darkgrayish text-sm">A floral, solar and voluptuous interpretation composed by Olivier Polge,
+          Perfumer-Creator for the House of CHANEL.</p>
+        <p class="py-5 flex items-center">
+          <span class="font-fraunces text-darkcyan text-2xl">$149.99</span>
+          <span class="text-xs text-darkgrayish line-through ps-5 font-bold">$169.99</span>
+        </p>
+        <button class="text-center bg-darkcyan p-3 rounded-lg text-xs font-semibold text-white w-full flex items-center justify-center">
+          <img src="./images/icon-cart.svg" alt="cart icon" class="px-2">
+          Add to Cart</button>
+      </figcaption>
+    </article>
   </main>
-  <footer>
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+  <footer class="text-center p-1 min-h-[5vh] text-sm">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+      class="text-darkcyan underline underline-offset-2">Frontend Mentor</a>. Coded by
+    <a href="https://linkedin.com/in/luca-di-marco" target="_blank"
+      class="text-darkcyan font-fraunces underline underline-offset-2">tsu</a> 😼.
   </footer>
 </body>
 
